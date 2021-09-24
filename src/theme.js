@@ -21,8 +21,10 @@ const theme = {
     background: "#fff",
     primary: "#07c",
     secondary: "#30c",
-    muted: "#f6f6f6"
+    muted: "rgba(0, 0, 0, 0.5)",
+    faux: "rgba(0, 0, 0, 0.1)"
   },
+  radii: [0, 4, 8, 16],
   styles: {
     root: {
       fontFamily: "body",
